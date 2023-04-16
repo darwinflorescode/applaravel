@@ -1,0 +1,106 @@
+
+/* 
+JQUERY UI MODIFICADO
+*/
+
+.ui-autocomplete {
+    position: fixed;
+    border: none
+}
+
+.ui-autocomplete-row {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    color: var(--black);
+    background-color: var(--white);
+    border-bottom: 1px solid #ccc;
+
+}
+
+.change {
+    background-color: #ffffff !important;
+    padding: 5px;
+
+}
+
+.ui-autocomplete-row:hover {
+    background-color: rgb(252, 243, 243);
+    color: black;
+}
+/* scrolline */
+.scroll-line {
+    top: 0;
+    position: fixed;
+    height: 3px;
+    margin-bottom: -2px;
+    background: #1877f2;
+    width: 0%;
+    z-index: 2;
+}
+
+/* pages and group active */
+.pages a .activo,
+.group a .activo {
+    font-weight: bold;
+    background-color: #fffc4fbc;
+    padding: 5px;
+    color: black !important;
+    transition: 0.10s;
+}
+/* BOTON COLOR ACTIVE */
+.backcolor {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.backcolor:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+
+/* ALERTAS MENSAJES */
+
+
+.alert {
+    top: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.85rem;
+    font-weight: bolder;
+    padding: 3px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    z-index: 2;
+  }
+  .alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+  }
+  .alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+  }
+  .alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+  }
+  .alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+  }
+
+  .friend ul li b .active {
+    background-color: #fbff10cf;
+    color: black;
+    padding: 5px;
+    border-bottom: 3px groove rgba(255, 11, 239, 0.947);
+    transition: .15s ease;
+}
